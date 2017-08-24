@@ -36,7 +36,7 @@ public class EmailNotification extends Notification {
     @Override
     public void printCreation() {
         super.printCreation();
-        System.out.printf("It will be sent using %s",getSmtpProvider());
+        System.out.printf("It will be sent using %s", getSmtpProvider());
     }
 
     @Override

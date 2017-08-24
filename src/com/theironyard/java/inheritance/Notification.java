@@ -17,7 +17,7 @@ public abstract class Notification {
         this.status = "OK";
     }
 
-    protected void printCreation(){
+    protected void printCreation() {
         System.out.printf("The notification was created at %s\n", getCreatedAt());
     }
 
